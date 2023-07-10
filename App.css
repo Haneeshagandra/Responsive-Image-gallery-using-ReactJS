@@ -1,0 +1,36 @@
+body {
+  box-sizing: border-box;
+  background-color: rgb(17, 15, 15);
+  color: white;
+}
+
+* {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+  font-size: 24px;
+  font-style: italic;
+}
+.container {
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  height: 50px;
+  border-bottom: 5px solid wheat;
+  line-height: 50px;
+  background: #e91b1b;
+ 
+}
+.container strong{
+  font-size: 20px;
+  color:black;
+  display: inline-block;
+  padding: 2px 20px;
+  text-transform: uppercase;
+}
+
